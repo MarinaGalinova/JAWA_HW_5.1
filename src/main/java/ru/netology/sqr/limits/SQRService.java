@@ -6,10 +6,11 @@ public class SQRService {
         int x = 0;
         int i = 0;
 
-        for (i = Math.max(10, (int) Math.sqrt(leftlimit)); i < Math.min(99, (int) (Math.sqrt(rightlimit)))+1; i++) {
+        for (i = Math.max(10, (int) Math.sqrt(leftlimit)); i < Math.min(99, (int) (Math.sqrt(rightlimit)) + 1); i++) {
             x++;
         }
         return x;
+
     }
 
 
